@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:text="Detalle personaje"
+
+            android:layout_marginTop="40dp"
+            android:textColor="#2C2928"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.576" />
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/atras" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="700dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-420dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profile_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/personaje"
+            />
+        <TextView
+            android:id="@+id/detalleNombre"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:text="xxxxxx"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detalleEspecie"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:text="xxxxxxxx"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/detalleGender"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:text="xxxxxxxx"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detalleEstado"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:text="xxxxxxxx"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
